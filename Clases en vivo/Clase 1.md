@@ -1,0 +1,2 @@
+- Los LLM's son autocompletados, predicen lo que sucederá después a grán escala y no se limitan palabra a palabra, 
+- LLM: Todas las herramientas como chatgpt, claude

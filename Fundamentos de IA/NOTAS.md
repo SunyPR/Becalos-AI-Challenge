@@ -1,0 +1,28 @@
+- La IA predice tokens. Lee tokens, trabaja con tokens y eso es lo que te cuesta a ti y a una empresa usar la IA: Tokens. Procura que todo lo que vayas a trabajar 
+- 3 ejemplos de costos de tokens:
+  - El español cuesta más tokens porque la optimización de modelos se hizo en inglés. 
+  - El código y tablas cuestan también muchos tokens.
+- Token: Piezas de texto que los modelos procesan. Un modelo usa distribución de probabilidad para predecir el próximo token.
+- Fases de entrenamiento
+  - Fase 1: Se le alimenta con cantidades astronómicas de texto y se le pide adivinar el siguiente token. Hasta aquí tienes un autocompletador, pero autocompletar no garantiza ayudar bien.
+  - Fase 2: Fine-tuning, se le pasan ejemplos de buena respuesta, humanos (o modelos) validan esas respuestas para entregar un asistente o chatbot. Sigue prediciendo, pero de una manera que sea útil para el ser humano. Buen ajuste tampoco es sinónimo de infalible
+- Embedding: Representación vectorial en un espacio semántico. En español, los tokens se convierten en una lista de números donde cercanía de tokens indica parecido de uso.
+  - Ejemplo: Devolución de dinero y reembolso no son las mismas palabras pero su uso es similar.
+- Temperatura: Qué tanto se aparta el modelo del token más probable. En chats y apps públicos la temperatura la define el proveedor.
+  - Baja: 
+    - Estable y predecible
+    - Bueno para instrucciones exactas y precisas
+    - Repite aciertos y errores
+  - Alta:
+    - Variada y creativa
+    - Bueno para lluvias de ideas
+    - Se puede desviar o responder raro
+
+- Sonar correcto no es sinónimo de verdad. Hoy se sigue debatiendo si la AI de verdad entenderá algún día semánticament y no tan solo numéricamente por probabilidad.
+- A la IA tienes que ponerle información para que te 'entienda'. Si no, toma lo que es más probable o común y puede generarte información que simple y sencillamente es mentira.
+- Los modelos se distinguen por 4 cosas:
+  - 1. Lo que generan
+  - 2. Cómo piensan (rápido o razonamiento)
+  - 3. Tamaño
+  - 4. Acceso (Cerrados o abiertos)
+- Elegir un modelo involucra calidad, velocidad y límites.
